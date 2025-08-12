@@ -5,15 +5,15 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "Caseyrhodes~61YRzAwC#TgPWB0Jd66XVM6T3daf3eo1Lj5WQucGnzvMeX3P2My0",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 //anticall on/off
-   ANTI_CALL: process.env.ANTI_CALL || "true",
+   ANTI_CALL: process.env.ANTI_CALL || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY CASEYRHODES TECH 🤍*",
 // set the auto reply massage on status reply  
@@ -33,9 +33,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/52dotx.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "CASEYRHODES-MD",
+BOT_NAME: process.env.BOT_NAME || "ASEN",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "CASEYRHODES",
+STICKER_NAME: process.env.STICKER_NAME || "asen",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -43,15 +43,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254112192119",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "917005663560",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "CASEYRHODES-TECH",
+OWNER_NAME: process.env.OWNER_NAME || "asen",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© POWERED CASEYRHODES TECH*",
+DESCRIPTION: process.env.DESCRIPTION || "*© POWERED ASEN*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/52dotx.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Powered by *CASEYRHODES TECH*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Powered by *ASEN*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
